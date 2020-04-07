@@ -8,6 +8,8 @@ extern class ECDSA {
 
   static function generateKey():ECDSA;
 
+  static function fromJWK(jwk:Dynamic) : ECDSA;
+
   function asPublic():ECDSA;
 
   function toJWK():{kty:String, crv:String, x:String, y:String, ?d:String};
