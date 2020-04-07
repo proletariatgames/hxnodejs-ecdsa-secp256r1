@@ -6,7 +6,7 @@
   "tags": ["nodejs", "hxnodejs", "ecdsa-secp256r1"],
   "description": "Haxe/hxnodejs externs for the ecdsa-secp256r1 npm library",
   "releasenote": "Initial release",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "contributors": ["Proletariat", "ProletariatDev1"],
   "dependencies": {
     "hxnodejs": ""

@@ -2,6 +2,10 @@ package js.npm;
 
 @:jsRequire("ecdsa-secp256r1")
 extern class ECDSA {
+  public var x:js.node.Buffer;
+  public var y:js.node.Buffer;
+  public var d:Null<js.node.Buffer>;
+
   static function generateKey():ECDSA;
 
   function asPublic():ECDSA;
