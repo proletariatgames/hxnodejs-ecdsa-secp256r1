@@ -1,0 +1,14 @@
+{
+  "name": "hxnodejs-ecdsa-secp256r1",
+  "url": "https://github.com/proletariatgames/hxnodejs-ecdsa-secp256r1",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nodejs", "hxnodejs", "ecdsa-secp256r1"],
+  "description": "Haxe/hxnodejs externs for the ecdsa-secp256r1 npm library",
+  "releasenote": "Initial release",
+  "version": "1.0.0",
+  "contributors": ["Proletariat", "ProletariatDev1"],
+  "dependencies": {
+    "hxnodejs": ""
+  }
+}
