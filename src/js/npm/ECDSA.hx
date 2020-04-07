@@ -8,5 +8,5 @@ extern class ECDSA {
 
   function toJWK():{kty:String, crv:String, x:String, y:String, ?d:String};
 
-  function sign(message:String, ?format:String):String;
+  function sign(message:js.node.Buffer, ?format:String):String;
 }
