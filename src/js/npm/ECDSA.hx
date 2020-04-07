@@ -1,4 +1,4 @@
-package js.npm.ecdsa-secp256r1;
+package js.npm.ecdsa;
 
 @:jsRequire("ecdsa-secp256r1")
 extern class ECDSA {
